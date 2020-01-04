@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose');
-const Hotel = mongoose.model('Hotel',{
+const Hotel = mongoose.model('Hotel',new mongoose.Schema({
     seller: {type: String,required: true},
     city: String,
     zipCode: Number,
@@ -9,6 +9,6 @@ const Hotel = mongoose.model('Hotel',{
     price: Number,
     url: String,
     imageUrl: String
-});
+}));
 
 module.exports = Hotel;
