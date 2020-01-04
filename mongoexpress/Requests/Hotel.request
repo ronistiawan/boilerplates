@@ -1,0 +1,15 @@
+@add_url = http://localhost:3000/Hotel/add
+
+POST {{add_url}}
+Content-Type: application/json
+
+{
+    "seller": "Traveloka",
+    "city": "Jakarta Barat",
+    "zipCode": 11410,
+    "address": "Jalan D3 No 36",
+    "name": "Hotel Arya Duta",
+    "price": 655000,
+    "url": "traveloka.com/hote/sdfsd",
+    "imageUrl": "https://roni.com/pic.png"
+}
