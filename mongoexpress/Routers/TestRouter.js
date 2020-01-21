@@ -1,5 +1,4 @@
-var express = require('express')
-var router = express.Router()
+var router = require('express').Router()
 
 router.post('/add', async (req,res)=>{
     console.log(req.body);
